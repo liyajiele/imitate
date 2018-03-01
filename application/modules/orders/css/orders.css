@@ -1,0 +1,39 @@
+.orders_content {
+  width: 18rem;
+  height: 100%;
+  overflow: scroll; }
+  .orders_content .order_list {
+    margin-bottom: 3rem;
+    width: 18rem; }
+    .orders_content .order_list li {
+      float: left;
+      width: 17rem;
+      margin-left: 0.5rem;
+      height: 2.5rem;
+      border-bottom: 0.05rem solid #d8d8d8; }
+      .orders_content .order_list li .pay_time, .orders_content .order_list li .lt_info {
+        width: 1.5rem;
+        height: 2rem;
+        margin-top: 0.25rem;
+        font-size: 0.6rem;
+        font-weight: bold;
+        line-height: 1rem;
+        margin-left: 0.1rem; }
+      .orders_content .order_list li .lt_info {
+        width: 10.5rem;
+        margin-left: 1rem; }
+        .orders_content .order_list li .lt_info .lt_info_type {
+          width: 10.5rem;
+          font-weight: bold; }
+        .orders_content .order_list li .lt_info .lt_info_price {
+          font-weight: normal; }
+      .orders_content .order_list li .order_status {
+        font-size: 0.7rem;
+        line-height: 2.5rem;
+        width: 2.5rem; }
+      .orders_content .order_list li .order_go {
+        width: 1.2rem;
+        height: 1.3rem;
+        margin-top: 0.6rem; }
+
+/*# sourceMappingURL=orders.css.map */

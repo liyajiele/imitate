@@ -1,0 +1,23 @@
+<div class="kj_content">
+    <ul class="kj_list">
+        <li ng-repeat="kjInfo in kjInfos" ng-click="toOpenInfos(kjInfo.ltTypepy)">
+            <img ng-src="{{kjInfo.icon}}" class="icon" />
+            <div class="kj_info">
+                <div class="kj_type">
+                    <div class="lttype">{{kjInfo.ltType}}</div>
+                    <div class="ltqi">第{{kjInfo.expect}}期</div>
+                    <div class="kjtime">{{kjInfo.opentimestamp|kjTimeFilter}}</div>
+                </div>
+                <div class="kj_code">
+                    <ul class="kj_reds">
+                        <li ng-repeat="red in kjInfo.oepncode|redsFilter">{{red}}</li>
+                    </ul>
+                    <ul class="kj_blues">
+                        <li ng-repeat="blue in kjInfo.oepncode|bluesFilter">{{blue}}</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="images/qianjin.png" class="kj_go"/>
+        </li>
+    </ul>
+</div>

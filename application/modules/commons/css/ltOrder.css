@@ -1,0 +1,78 @@
+.ltorder_content {
+  width: 18rem;
+  height: auto;
+  background: #f8f8f8;
+  font-size: 0.7rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1; }
+  .ltorder_content .ltorder_header {
+    height: 6.75rem;
+    width: 18rem;
+    background: url("../../../../images/orderbg.png") 0 0 no-repeat;
+    background-size: 18rem 6.75rem; }
+    .ltorder_content .ltorder_header .lttype {
+      width: 2.15rem;
+      height: 2.15rem;
+      margin-left: 0.75rem;
+      margin-top: 0.5rem; }
+    .ltorder_content .ltorder_header .ltorder_type {
+      margin-top: 0.7rem;
+      margin-left: 0.4rem;
+      font-weight: bold;
+      width: 10rem; }
+    .ltorder_content .ltorder_header .ltorder_qi {
+      margin-left: 0.4rem;
+      width: 10rem;
+      overflow: hidden; }
+    .ltorder_content .ltorder_header .ltorder_status {
+      margin-top: 0.5rem;
+      width: 18rem;
+      height: 3rem; }
+      .ltorder_content .ltorder_header .ltorder_status li {
+        float: left;
+        width: 4rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        height: 3rem; }
+        .ltorder_content .ltorder_header .ltorder_status li .status_desc, .ltorder_content .ltorder_header .ltorder_status li .status_val {
+          width: 100%;
+          text-align: center;
+          margin-top: 0.5rem;
+          font-weight: bold; }
+        .ltorder_content .ltorder_header .ltorder_status li .status_val {
+          font-weight: normal; }
+  .ltorder_content .ltorder_lts {
+    width: 17.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem; }
+    .ltorder_content .ltorder_lts .lts_list {
+      width: 18rem; }
+      .ltorder_content .ltorder_lts .lts_list li {
+        width: 18rem;
+        float: left;
+        margin-top: 0.5rem; }
+        .ltorder_content .ltorder_lts .lts_list li .redBall {
+          color: #E14142; }
+        .ltorder_content .ltorder_lts .lts_list li .blueBall {
+          color: #63A9EC; }
+    .ltorder_content .ltorder_lts .lts_bianhao {
+      width: 18rem;
+      margin-top: 1rem; }
+    .ltorder_content .ltorder_lts .lts_createtime {
+      width: 18rem;
+      margin-top: 0.5rem; }
+  .ltorder_content .back_index {
+    width: 12rem;
+    margin: 2rem 3rem 2rem 3rem;
+    border: 0.1rem solid #56e59b;
+    background: #56e59b;
+    color: #fff;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 0.8rem; }
+
+/*# sourceMappingURL=ltOrder.css.map */

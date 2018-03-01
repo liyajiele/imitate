@@ -1,0 +1,65 @@
+.kjlist_content {
+  overflow: scroll;
+  overflow-x: hidden; }
+
+.kj_content {
+  width: 18rem;
+  height: auto; }
+  .kj_content .kj_list {
+    width: 18rem;
+    height: auto; }
+    .kj_content .kj_list li {
+      float: left;
+      width: 18rem;
+      height: 3.75rem;
+      border-bottom: 0.05rem solid #d8d8d8; }
+      .kj_content .kj_list li .icon {
+        width: 2.25rem;
+        height: 2.25rem;
+        margin: 0.75rem 0.5rem 0rem 0.5rem; }
+      .kj_content .kj_list li .kj_info {
+        width: 13rem;
+        height: auto;
+        margin-top: 0.6rem;
+        font-size: 0.7rem;
+        line-height: 1rem; }
+        .kj_content .kj_list li .kj_info .kj_type {
+          width: 18rem; }
+          .kj_content .kj_list li .kj_info .kj_type .lttype {
+            font-size: 0.9rem;
+            color: #292929;
+            margin-right: 0.5rem; }
+          .kj_content .kj_list li .kj_info .kj_type .ltqi {
+            margin-right: 0.5rem; }
+        .kj_content .kj_list li .kj_info .kj_code {
+          width: 18rem;
+          margin-top: 0.3rem; }
+          .kj_content .kj_list li .kj_info .kj_code li {
+            width: 1rem;
+            height: 1rem;
+            margin-right: 0.3rem;
+            text-align: center;
+            line-height: 1rem;
+            -webkit-border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            border-radius: 1rem; }
+          .kj_content .kj_list li .kj_info .kj_code .kj_reds {
+            width: auto;
+            height: auto; }
+            .kj_content .kj_list li .kj_info .kj_code .kj_reds li {
+              border: 0.1rem solid #ff0f0f;
+              color: #fff;
+              background: #ff0f0f; }
+          .kj_content .kj_list li .kj_info .kj_code .kj_blues {
+            width: auto;
+            height: auto; }
+            .kj_content .kj_list li .kj_info .kj_code .kj_blues li {
+              border: 0.1rem solid #63A9EC;
+              color: #fff;
+              background: #63A9EC; }
+      .kj_content .kj_list li .kj_go {
+        width: 1.2rem;
+        height: 1.3rem;
+        margin-top: 1.1rem; }
+
+/*# sourceMappingURL=kaijiang.css.map */

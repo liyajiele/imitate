@@ -1,0 +1,110 @@
+.user_content {
+  width: 18rem;
+  height: auto; }
+  .user_content .user_info {
+    width: 18rem;
+    height: 5rem;
+    background: #56e59b; }
+    .user_content .user_info .user_avatar {
+      width: 2.75rem;
+      height: 2.75rem;
+      border-radius: 2rem;
+      margin-left: 1.5rem;
+      margin-top: 0.5rem;
+      border: 0.05rem solid #fef5ee; }
+    .user_content .user_info .user_info_detail {
+      width: 13rem;
+      height: 5rem;
+      margin-left: 0.6rem;
+      color: #fff; }
+      .user_content .user_info .user_info_detail .user_info_nickname, .user_content .user_info .user_info_detail .user_info_account, .user_content .user_info .user_info_detail .user_info_red {
+        width: 13rem;
+        overflow: hidden;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        font-size: 0.8rem; }
+        .user_content .user_info .user_info_detail .user_info_nickname span, .user_content .user_info .user_info_detail .user_info_account span, .user_content .user_info .user_info_detail .user_info_red span {
+          color: #f05;
+          font-weight: bold; }
+  .user_content .deal_money {
+    width: 18rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 0.05rem solid #f6f6f6; }
+    .user_content .deal_money .recharge, .user_content .deal_money .tixian {
+      font-size: 0.8rem;
+      width: 8.9rem;
+      border-left: 0.05rem solid #f6f6f6;
+      border-right: 0.05rem solid #f6f6f6; }
+  .user_content .user_ops {
+    width: 18rem;
+    height: auto;
+    background: #f8f8f8;
+    padding-bottom: 3rem; }
+    .user_content .user_ops .zsxm, .user_content .user_ops .mima {
+      margin-top: 0.8rem; }
+    .user_content .user_ops .ops_item {
+      width: 18rem;
+      background: #ffffff;
+      border-bottom: 0.05rem solid #f6f6f6; }
+      .user_content .user_ops .ops_item .opt_icon {
+        margin: 0.3rem 0.8rem 0;
+        width: 2rem; }
+      .user_content .user_ops .ops_item .opt_desc {
+        height: 2.6rem;
+        line-height: 2.6rem;
+        font-size: 0.8rem;
+        width: 12rem; }
+        .user_content .user_ops .ops_item .opt_desc .opt_value {
+          color: #d8d8d8; }
+      .user_content .user_ops .ops_item .opt_go {
+        width: 0.8rem;
+        margin-top: 0.65rem;
+        height: 1.3rem; }
+  .user_content .logout {
+    width: 18rem;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 0.7rem;
+    font-size: 0.8rem; }
+
+.user_updpass_content {
+  width: 18rem;
+  height: auto; }
+  .user_updpass_content .upd_item {
+    width: 16.9rem;
+    font-size: 0.8rem;
+    color: #292929;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 0.5rem 0.5rem 0;
+    border: 0.05rem solid #f6f6f6;
+    border-radius: 0.3rem; }
+    .user_updpass_content .upd_item .upd_desc {
+      margin-left: 0.5rem;
+      width: 4rem; }
+    .user_updpass_content .upd_item .upd_pass {
+      height: 2rem;
+      width: 12rem;
+      border: 0;
+      padding: 0;
+      outline: 0;
+      margin-top: 0.5rem;
+      height: 1rem;
+      display: block;
+      float: left; }
+  .user_updpass_content .commit {
+    width: 16rem;
+    margin: 2rem 1rem 1rem;
+    color: #ffffff;
+    background: #56e59b;
+    heigth: 2rem;
+    border-radius: 0.25rem;
+    line-height: 2rem;
+    text-align: center; }
+
+/*# sourceMappingURL=user.css.map */

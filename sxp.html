@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="webapp">
+<head lang="en">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0, width=device-width"/>
+    <meta name="format-detection" content="telephone=no" />
+    <title ng-bind="htitle">彩票</title>
+    <link rel="stylesheet" href="style/index.css"/>
+    <script type="text/javascript" src="libs/rem.js"></script>
+
+
+</head>
+<body>
+<div id="container">
+    <div id="scroll_container">
+        <div class="header_cont" ui-view="header"></div>
+        <div class="main_cont gsapify-router" ui-view="main"></div>
+        <div class="footer_cont " ui-view="navBottom"></div>
+    </div>
+</div>
+<script type="text/javascript" src="libs/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="libs/layer/mobile/layer.js"></script>
+
+<script type="text/javascript" src="libs/angular/angular.min.js"></script>
+
+<script type="text/javascript" src="libs/layer/ng-layer.js"></script>
+<script type="text/javascript" src="libs/layer/ng-layer.js"></script>
+<script type="text/javascript" src="libs/angular/angular-local-storage.min.js" ></script>
+<script type="text/javascript" src="libs/angular/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="libs/angular/ocLazyLoad.min.js"></script>
+<!--<script src="libs/angular/gsap/TweenMax.min.js"></script>-->
+<!--<script src="libs/angular/gsap/angular-gsapify-router.js"></script>-->
+<!--<script src="libs/angular/angular-animate.min.js"></script>-->
+<!--<script src="libs/angular/angular-ui.min.js"></script>-->
+
+
+
+
+<script type="text/javascript" src="application/app.js"></script>
+
+</body>
+</html>

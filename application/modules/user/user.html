@@ -1,0 +1,66 @@
+<div class="user_content">
+    <div class="user_info">
+        <img class="user_avatar" ng-src="{{userInfo.userVo.avatar}}" />
+        <div class="user_info_detail">
+            <div class="user_info_nickname">
+                {{userInfo.userVo.nickname}}
+            </div>
+            <div class="user_info_account">
+                余额：<span>{{userInfo.balance}}元</span>
+            </div>
+            <div class="user_info_red">
+                红包：<span>{{userInfo.rbalance}}元</span>
+            </div>
+        </div>
+    </div>
+    <div class="deal_money">
+        <div class="recharge" ng-click="toUrl('/recharge')">
+            充值
+        </div>
+        <div class="tixian">
+            提现
+        </div>
+    </div>
+    <div class="user_ops">
+        <div class="tzjl ops_item" ng-click="toUrl('/orders')">
+            <img class="opt_icon" src="images/user/tzjl.png" />
+            <div class="tzjl_desc opt_desc">投注记录</div>
+            <img class="opt_go" src="images/qianjin.png" />
+        </div>
+
+        <div class="zhmx ops_item" ng-click="">
+            <img class="opt_icon" src="images/user/zhmx.png" />
+            <div class="zhmx_desc opt_desc">账户明细</div>
+            <img class="opt_go" src="images/qianjin.png" />
+        </div>
+
+        <div class="zsxm ops_item">
+            <img class="opt_icon" src="images/user/zsxm.png" />
+            <div class=" opt_desc">真实姓名： <span class="opt_value">{{userInfo.userVo.realname|nameFilter}}</span></div>
+        </div>
+
+
+
+
+        <div class="sjh ops_item">
+            <img class="opt_icon" src="images/user/sjh.png" />
+            <div class=" opt_desc">手机号：<span class="opt_value">{{userInfo.userVo.mobile|mobileFilter}}</span></div>
+        </div>
+
+        <div class="yhk ops_item">
+            <img class="opt_icon" src="images/user/yhk.png" />
+            <div class=" opt_desc">绑定银行卡</div>
+            <img class="opt_go" src="images/qianjin.png" />
+        </div>
+
+        <div class="mima ops_item" ng-click="toUrl('/updatePass')">
+            <img class="opt_icon" src="images/user/suo.png" />
+            <div class=" opt_desc">修改密码</div>
+            <img class="opt_go" src="images/qianjin.png" />
+        </div>
+        <div class="logout" ng-click="logout()">
+            退出登录
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,103 @@
+<div class="index_content">
+	<div banner></div>
+	<script type="text/ng-template" id="lunbo.html">
+		<ul class="index_banner_list">
+			<li ng-repeat="img in images"
+				class="fade-in style hidden" >
+				<a ng-href="{{img.href}}"><img ng-src="{{img.src}}" alt=""/></a></li>
+		</ul>
+	</script>
+
+	<div class="index_tips">
+		这里是提示,暂时是静态的!
+	</div>
+
+	<div class="index_random_ssq">
+		<ul class="index_random_ssq_ctn">
+			<li class="red_ball" ng-repeat="ball in redBalls">
+				{{ball}}
+			</li>
+			<li class="blue_ball">
+				{{blueBall}}
+			</li>
+		</ul>
+		<div class="index_random_ssq_cmt" ng-click="shouqi()">
+			试试手气
+		</div>
+	</div>
+
+	<ul class="index_lts">
+		<li class="index_lts_item">
+			<a href="#/opt/ssq" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/ssq.png" />
+				<div class="index_lts_item_type">双色球</div>
+				<div class="index_lts_item_desc">2元中1000万</div>
+			</a>
+		</li>
+		<li class="index_lts_item">
+			<a href="#" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/dlt.png" />
+				<div class="index_lts_item_type">大乐透</div>
+				<div class="index_lts_item_desc">3元中1600万</div>
+			</a>
+		</li>
+		<li class="index_lts_item">
+			<a href="#" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/cqssc.png" />
+				<div class="index_lts_item_type">重庆时时彩</div>
+				<div class="index_lts_item_desc">低投入高回报</div>
+			</a>
+		</li>
+
+
+
+
+		<li class="index_lts_item">
+			<a href="#" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/jx11x5.png" />
+				<div class="index_lts_item_type">江西11选5</div>
+				<div class="index_lts_item_desc">小单擒大奖</div>
+			</a>
+		</li>
+		<li class="index_lts_item">
+			<a href="#" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/fc3d.png" />
+				<div class="index_lts_item_type">福彩3D</div>
+				<div class="index_lts_item_desc">3元中1500万</div>
+			</a>
+		</li>
+		<li class="index_lts_item">
+			<a href="#" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/pl3.png" />
+				<div class="index_lts_item_type">排列三</div>
+				<div class="index_lts_item_desc">奖金全面提升</div>
+			</a>
+		</li>
+
+
+
+		<li class="index_lts_item">
+			<a href="#" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/tr9.png" />
+				<div class="index_lts_item_type">任选九</div>
+				<div class="index_lts_item_desc">小单擒大奖</div>
+			</a>
+		</li>
+
+		<li class="index_lts_item">
+			<a href="#" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/jczq.png" />
+				<div class="index_lts_item_type">竞彩足球</div>
+				<div class="index_lts_item_desc">敬请期待</div>
+			</a>
+		</li>
+
+		<li class="index_lts_item">
+			<a href="#" class="index_lts_item_ctn">
+				<img class="index_lts_item_icon" src="images/lticon/more.png" />
+				<div class="index_lts_item_type">更多</div>
+				<div class="index_lts_item_desc">敬请期待</div>
+			</a>
+		</li>
+	</ul>
+</div>

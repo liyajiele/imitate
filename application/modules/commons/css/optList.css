@@ -1,0 +1,215 @@
+.lt_opt_list_content{
+    width:18rem;
+    height:auto;
+    background:#f8f8f8;
+    overflow: hidden;
+}
+.lt_opt_btn{
+    width:18rem;
+    height:auto;
+    margin-top:0.7rem;
+    margin-bottom:0.7rem;
+}
+.lt_opt_btn_item{
+    float:left;
+    width:7.5rem;
+    height:1.5rem;
+
+    text-align:center;
+    border:0.05rem solid #F8DBD9;
+    line-height:1.5rem;
+    margin-left:0.9rem;
+    color:#EA7677;
+    -webkit-border-radius:0.2rem;
+    -moz-border-radius:0.2rem;
+    border-radius:0.2rem;
+}
+
+
+.lt_list_container{
+    width:18rem;
+    height:24rem;
+    overflow-x:hidden;
+    background:url('../../../../images/touzhubg.jpg') 1rem 0rem no-repeat;
+    background-size: 16rem 24rem;
+}
+.lt_list{
+    margin-left:1.5rem;
+    margin-top:0.3rem;
+    padding-top:0.7rem;
+    width:25rem;
+    height:22.3rem;
+    overflow: scroll;
+
+
+}
+/*列表项*/
+.lt_opt_item{
+    float:left;
+    width:15rem;
+    height:auto;
+    margin-bottom:1rem;
+
+
+    font-size:0.7rem;
+
+}
+.lt_item_clean{
+    width:1rem;
+    heigth:1rem;
+    margin-left:0.5rem;
+}
+.lt_item_info{
+    vertical-align: middle;
+    width:13rem;
+    margin-left:0.5rem;
+}
+.lt_item_reds{
+    color:red;
+    width:8rem;
+}
+.lt_item_blues{
+    color:blue;
+    width:4rem;
+    margin-left:0.5rem;
+}
+.lt_item_reds li,.lt_item_blues li{
+    float:left;
+    margin-right:0.3rem;
+}
+.lt_item_info_desc{
+    width:13rem;
+    height:1.2rem;
+    line-height:1.2rem;
+}
+.lt_item_info_desc div{
+    margin-right:0.5rem;
+}
+
+
+
+
+
+
+
+.lt_item_info_bei input{
+    float:left;
+    width:2rem;
+    height:0.7rem;
+    margin-top:0.25rem;
+    text-align:center;
+    display: block;
+    margin-left:0.2rem;
+    margin-right: 0.2rem;
+    border:0;
+    background:#e9e9e9;
+    color:#727272;
+}
+.lt_item_info_bei input:focus{
+    border:none;
+    outline: none;
+}
+
+
+
+
+
+
+.lt_list_money{
+    margin-top:1rem;
+    background:#e4e4e4;
+    width:18rem;
+    height: 2.0rem;
+    font-size:0.8rem;
+    line-height: 2rem;
+
+    position: fixed;
+    bottom:0;
+
+}
+.lt_sum{
+    margin-left:1rem;
+    width:7rem;
+
+}
+.lt_use_redbag{
+    width:5rem;
+    background:#efefef;
+    height:1.5rem;
+    margin-top:0.25rem;
+    margin-left:1rem;
+    border-radius: 0.15rem;
+    text-align:center;
+    line-height: 1.5rem;
+}
+
+.lt_list_pay{
+    width:2.5rem;
+    heigth:1.5rem;
+    margin-top:0.25rem;
+    background:#939393;
+    text-align:center;
+    line-height:1.5rem;
+    color:#efefef;
+    font-size:0.7rem;
+    margin-left:1rem;
+    -webkit-border-radius:0.15rem;
+    -moz-border-radius:0.15rem;
+    border-radius:0.15rem;
+}
+
+.hongbao_tip{
+    position: absolute;
+    width:10rem;
+    height:10rem;
+    top:10rem;
+    left:4rem;
+
+    background:url('../../../../images/hongbaotip.png') 0 0 no-repeat;
+    background-size:10rem 12rem;
+}
+.hongbao_syu{
+    float:left;
+    width:6.2rem;
+    margin-top:3rem;
+    margin-left:2rem;
+    text-align: center;
+}
+.hongbao_keyong{
+    margin-top:0.7rem;
+    float:left;
+    text-align: center;
+    margin-left:2rem;
+    width:6.2rem;
+}
+.hongbao_use{
+    text-align:center;
+    -webkit-border-radius:0.15rem;
+    -moz-border-radius:0.15rem;
+    border-radius:0.15rem;
+    border:none;
+    outline: none;
+    width:2rem;
+    background:red;
+    height:0.8rem;
+    position: relative;
+    top:-0.12rem;
+}
+.hongbao_ensure{
+    margin-left:2.7rem;
+    margin-top:2rem;
+    width:2.5rem;
+    height:1.3rem;
+    text-align: center;
+    line-height:1.3rem;
+    background:#e9e9e9;
+    font-size:0.8rem;
+    border-radius: 0.15rem;
+}
+.hongbao_desc{
+    margin-top:1.7rem;
+    font-size:0.7rem;
+    margin-left:0.2rem;
+    color:#fff;
+    text-align:center;
+}

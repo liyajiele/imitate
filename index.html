@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #main,#leader{
+            position:absolute;
+            top:0;
+            left:0;
+            border:0;
+            width:100%;
+            height:100%;
+        }
+        #leader{
+            z-index: 999;
+            background:#ffffff;
+        }
+    </style>
+</head>
+<body>
+    <img id="leader" src="images/leaderye.jpg" />
+    <iframe id="main" src="sxp.html">
+
+    </iframe>
+    <script type="text/javascript" src="libs/jquery/jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var uid = window.localStorage.getItem("ls.lt.uid");
+            var token = window.localStorage.getItem("ls.lt.token");
+
+            if(uid!=undefined && token!= undefined){
+                $("#main").attr("src","sxp.html");
+            }else{
+                //判断是否为微信
+                var ua = navigator.userAgent.toLowerCase();
+                if(ua.match(/MicroMessenger/i)=="micromessenger") {
+                    //$("#main").attr("src","http://api.mkjianzhi.com/weixin2/wxIndex");
+                    location.href = "http://api.mkjianzhi.com/weixin2/wxIndex";
+                }
+
+            }
+
+
+            setTimeout(function(){
+                $("#leader").remove();
+            },3000);
+        });
+    </script>
+</body>
+</html>

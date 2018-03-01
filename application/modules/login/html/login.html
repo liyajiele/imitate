@@ -1,0 +1,30 @@
+<div  class="login_header">
+    <img src="../images/login/denglutop.png" />
+</div>
+<div class="login_main">
+    <div class="username_group login_input_group ">
+        <img class="login_group_icon" src="../images/login/wo.png" />
+        <div  class="login_group_input">
+            <input type="text" ng-model="username" placeholder="请输入手机号"/>
+            <img class="login_clean_input" src="../images/login/shanchu.png" ng-click="clearUsername()" />
+        </div>
+    </div>
+    <div class="password_group login_input_group ">
+        <img class="login_group_icon" src="../images/login/suo.png" />
+        <div  class="login_group_input">
+            <input type="password" ng-model="password" placeholder="请输入密码"/>
+            <img class="login_clean_input" src="../images/login/shanchu.png" ng-click="clearPwd"/>
+        </div>
+    </div>
+    <div class="login_remeber_me" ng-click="remeberPwd()">
+        <img src="{{rmm}}" />
+        <span class="login_rm_desc" >记住密码</span>
+    </div>
+    <div class="login_btn center " tapmode=""  ng-click="login()">
+        登录
+    </div>
+    <div class="login_forget_register">
+        <a class="login_forget" href="#/forgetPwd">忘记密码</a>
+        <a class="login_register" href="#/register">立即注册</a>
+    </div>
+</div>

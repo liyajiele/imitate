@@ -1,0 +1,117 @@
+.index_content {
+    margin: 0 0;
+    width: 18rem;
+    height: auto;
+	float:left;
+	font-size:0.7rem;
+    background:#f2f2f2;
+}
+.index_banner_list{
+    width:18rem;
+    background:#5dc2f1;
+    height:7.25rem;
+    overflow: hidden;
+}
+.index_banner_list li {
+    //display: none;
+    width:32rem;
+}
+.index_banner_list li img{
+    width:18rem;
+    height:7.25rem;
+}
+.index_content .index_tips{
+    width:18rem;
+    height:1.7rem;
+    line-height: 1.7rem;
+    background:#fff;
+    text-align: center;
+
+    margin-bottom: 0.2rem;
+}
+
+.index_random_ssq{
+    width:18rem;
+    height:1.7rem;
+    background:#ffffff;
+
+    margin-bottom:0.175rem;
+}
+.index_random_ssq_ctn{
+    width:13.7rem;
+    height:1.7rem;
+
+}
+.index_random_ssq_ctn li{
+    float:left;
+    width:1.2rem;
+    height:1.2rem;
+
+    -webkit-border-radius:1rem;
+    -moz-border-radius:1rem;
+    border-radius:1rem;
+
+    margin-left:0.5rem;
+    margin-top:0.15rem;
+
+    text-align:center;
+    line-height:1.2rem;
+}
+.red_ball{
+    border:0.1rem solid #ff0f0f;
+    color:#ff0f0f;
+}
+.blue_ball{
+    border:0.1rem solid #63A9EC;
+    color:#63A9EC;
+}
+.index_random_ssq_cmt{
+    width:3rem;
+    height:1.2rem;
+    border:0.1rem solid #00B478;
+    background:#00B478;
+    color:#fff;
+    margin-top:0.15rem;
+    margin-left:0.15rem;
+    text-align:center;
+    line-height: 1.2rem;
+    -webkit-border-radius:0.15rem;
+    -moz-border-radius:0.15rem;
+    border-radius:0.15rem;
+}
+
+/* ul */
+.index_lts{
+    height:auto;
+    width:18rem;
+    background:#fff;
+
+    margin-bottom: 3.5rem;
+}
+.index_lts_item{
+    float:left;
+    font-size:0.6rem;
+    height: auto;
+    width:auto;
+    border: #f2f2f2 solid 0.1rem;
+}
+.index_lts_item_ctn{
+    display: block;
+    float:left;
+    width:5.8rem;
+    height:5.8rem;
+}
+.index_lts_item_icon{
+    float:left;
+    width:2.5rem;
+    height:2.5rem;
+    margin-left:1.70rem;
+    margin-top:0.7rem;
+    margin-bottom:0.3rem;
+}
+.index_lts_item_type,.index_lts_item_desc{
+    width:5.9rem;
+    text-align: center;
+    overflow: hidden;
+
+}

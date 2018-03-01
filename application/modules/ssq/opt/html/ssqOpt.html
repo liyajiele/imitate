@@ -1,0 +1,16 @@
+<div class="ssq_opt_content">
+    <div class="lt_opt_guize">
+        <img class="ssq_opt_guize_yyy" src="images/jiangbei.png" />
+        <div class="ssq_opt_yyy_desc redBg gray " ng-click="jixuan()" ng-bind="xuanText">  </div>
+
+        <div class="ssq_opt_guize_desc">
+            至少选择6个红球，1个蓝球
+        </div>
+    </div>
+    <ul class="ssq_opt_content_reds ssq_opt_list">
+        <li class="{{redBallClass(redBall)}}" ng-repeat="redBall in ssqReds" ng-click="choiseReds(this,$event)">{{redBall}}</li>
+    </ul>
+    <ul class="ssq_opt_content_blues ssq_opt_list">
+        <li class="{{blueBallClass(blueBall)}}" ng-repeat="blueBall in ssqBlues" ng-click="choiseBlue(this,$event)">{{blueBall}}</li>
+    </ul>
+</div>

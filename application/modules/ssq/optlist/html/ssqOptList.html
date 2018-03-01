@@ -1,0 +1,62 @@
+<div class="lt_opt_list_content">
+    <ul class="lt_opt_btn">
+        <li class="lt_opt_btn_item" ng-click="ssqZixuan()">
+            ＋自选一注&nbsp;
+        </li>
+        <li class="lt_opt_btn_item" ng-click="ssqJixuan1()">
+            ＋机选一注&nbsp;
+        </li>
+    </ul>
+    <!--彩票列表-->
+    <div class="lt_list_container">
+        <ul class="lt_list">
+            <li class="lt_opt_item" ng-repeat="ssq in ssqs">
+                <img src="images/mini_icon_clean.png" class="lt_item_clean" ng-click="removeSSQ(this.$index)" />
+                <div class="lt_item_info">
+                    <ul class="lt_item_reds" >
+                        <li ng-repeat="rball in ssq.reds">{{rball}}</li>
+                    </ul>
+                    <ul class="lt_item_blues">
+                        <li ng-repeat="bball in ssq.blues">{{bball}}</li>
+
+                    </ul>
+                    <div class="lt_item_info_desc">
+                        <div class="lt_item_info_type">{{ssq.type|ssqTypeFilter}}</div>
+                        <div class="lt_item_info_zhu"><span>{{ssq.zhu}}</span>注</div>
+                        <div class="lt_item_info_qian"><span>{{ssq.fee}}</span>元</div>
+                        <div class="lt_item_info_bei ">
+                            <input type="text" value="{{ssq.multiple}}" ng-change="ssqMultiple(this.ssq)" ng-model="ssq.multiple" class="lt_bei_input" /><div>倍</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+
+    <div class="lt_list_money">
+        <div class="lt_sum">
+            <span class=" bold">{{ssqTotalZhu}}</span>注 共<span class="red bold">{{ssqTotalFee}}</span>元
+        </div>
+
+        <div class="lt_use_redbag red" ng-click="hongbaoTipChange()">
+            使用红包❤
+        </div>
+
+        <div class="lt_list_pay" ng-click="ssqPay()">
+            付款
+        </div>
+    </div>
+
+    <div class="hongbao_tip red" ng-show="hongbaoTip">
+        <div class="hongbao_syu">
+            剩余<span class="bold">{{rbalance}}</span>元
+        </div>
+        <div class="hongbao_keyong">
+            使用 <input type="text" ng-blur="dealClear()" ng-focus="clearRbalance()" ng-model="redUserNum" class="hongbao_use" value="0" /> 元
+        </div>
+        <div class="hongbao_desc">最多使用<br/>订单总额25%</div>
+        <div class="hongbao_ensure" ng-click="hongbaoCmt()">确定</div>
+    </div>
+</div>

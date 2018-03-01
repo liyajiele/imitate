@@ -1,0 +1,17 @@
+<div class="orders_content" infinite-scroll='orders.findOrderList()' infinite-scroll-disabled='orders.ordersBusy' infinite-scroll-distance='1'>
+    <ul class="order_list" >
+        <li ng-repeat="order in orders.ordersArray" ng-click="orderDetail(order.orderType,order.id)">
+            <div class="pay_time">{{order.gmtCreate|ocTimeFilter}}</div>
+            <div class="lt_info">
+                <div class="lt_info_type">{{order.subject}}</div>
+                <div class="lt_info_price">{{order.totalAmount}}元 代购订单</div>
+            </div>
+            <div class="order_status">
+                {{order.tradeStatus|orderStatusFilter}}
+            </div>
+            <img class="order_go"  src="images/qianjin.png" />
+        </li>
+
+    </ul>
+
+</div>

@@ -1,0 +1,47 @@
+<div class="recharge_content">
+    <div class="recharge_info">
+        <div class="info_title">充值信息</div>
+        <div class="info_detail">
+            <div class="detail_desc">
+                充值账号：
+            </div>
+            <div class="detail_value">
+                {{accountInfo.userVo.username}}
+            </div>
+        </div>
+        <div class="info_detail">
+            <div class="detail_desc">
+                账户余额：
+            </div>
+            <div class="detail_value">
+                {{accountInfo.balance}}元
+            </div>
+        </div>
+        <div class="info_detail">
+            <div class="detail_desc">
+                充值金额：
+            </div>
+            <div class="detail_value">
+                <input class="recharge_num" type="number" placeholder="请输入充值金额" ng-model="money" /><span>元</span>
+            </div>
+        </div>
+    </div>
+
+    <!--充值渠道-->
+    <div class="recharge_qudao">
+        <div class="qudao_title">请选择支付方式</div>
+        <div class="qudao_detail">
+            <img class="detail_logo" src="images/user/weixin.png" />
+            <div class="qudao_desc">
+                <div class="qudao_name">微信充值</div>
+                <div class="sxf">无手续费</div>
+            </div>
+            <img class="checkBtn" src="images/check.png" />
+        </div>
+
+    </div>
+    <!--充值按钮-->
+    <div class="recharge_commit" ng-click="commit()">
+        立即充值
+    </div>
+</div>

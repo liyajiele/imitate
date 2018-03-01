@@ -1,0 +1,17 @@
+<div class="user_updpass_content">
+    <div class="upd_item">
+        <div class="upd_desc">原密码</div>
+        <input type="password" class="upd_pass" placeholder="请输入原密码" ng-model="pass"/>
+    </div>
+    <div class="upd_item">
+        <div class="upd_desc">原密码</div>
+        <input type="password" class="upd_pass" placeholder="密码由6-20位字母或数字组成" ng-model="newPass"/>
+    </div>
+    <div class="upd_item">
+        <div class="upd_desc" >确认密码</div>
+        <input type="password" placeholder="请重复输入新密码" class="upd_pass" ng-model="newPass2" />
+    </div>
+    <div ng-click="commit()" class="commit">
+        确认
+    </div>
+</div>

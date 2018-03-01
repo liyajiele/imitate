@@ -1,0 +1,47 @@
+<div class="ltorder_content">
+    <div class="ltorder_header">
+        <img class="lttype" ng-src="{{lticon}}" />
+        <div class="ltorder_type">{{orderType}}</div>
+        <div class="ltorder_qi">{{orderInfo.ltQi}}</div>
+        <ul class="ltorder_status">
+            <li>
+                <div class="status_desc">{{statusDesc[0]}}</div>
+                <div class="status_val">{{statusVal[0]}}</div>
+            </li>
+            <li>
+                <div class="status_desc">{{statusDesc[1]}}</div>
+                <div class="status_val">{{statusVal[1]}}</div>
+            </li>
+            <li>
+                <div class="status_desc">{{statusDesc[2]}}</div>
+                <div class="status_val">{{statusVal[2]}}</div>
+            </li>
+            <li>
+                <div class="status_desc">{{statusDesc[3]}}</div>
+                <div class="status_val">{{statusVal[3]}}</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="ltorder_lts bold">
+        <div class="lts_content">
+            投注内容
+        </div>
+        <ul class="lts_list" >
+            <li ng-repeat="ltItem in ltCont">
+                <span class="redBall" ng-repeat="redBall in ltItem.reds">{{redBall}} </span>
+                <span class="blueBall" ng-repeat="blueBall in ltItem.blues">{{blueBall}} </span>
+            </li>
+        </ul>
+        <div class="lts_bianhao">
+            <span>方案编号 : </span><span class="normal">{{orderInfo.orderNum}}</span>
+        </div>
+        <div class="lts_createtime">
+            <span>投注时间 : </span><span class="normal">{{orderInfo.gmtPayment|cTimeFilter}}</span>
+        </div>
+    </div>
+    <div class="back_index" ng-click="backIndex()">
+        返回首页
+    </div>
+
+</div>
